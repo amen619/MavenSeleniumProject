@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 
 public class TestExample {
 
+	private int i = 1;
+	
 	@Test
 	public void Test1(){
 		System.out.println("Holaaaaaaa");
@@ -15,6 +17,7 @@ public class TestExample {
 	@Test
 	public void Test2(){
 		System.out.println("Holaaaaaaa test 2");
+		//TODO - nada
 		assertTrue( false );
 	}
 	
